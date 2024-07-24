@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/Logos.png" id="img1" alt="Logo 1" />
+      <img src="img/LOGO MERCANTE 2018 - Vazado.png" id="img2" alt="Logo 2" />
+      <img
+        src="img/nova logo tempos registrado - Vazado.png"
+        id="img3"
+        alt="Logo 3"
+      />
+      <div class="loginForm">
+        <form id="loginForm">
+          <input
+            type="text"
+            id="phoneNumber"
+            name="phoneNumber"
+            placeholder="Número de Telefone"
+          /><br />
+          <button type="button" id="sendCodeButton">Enviar Código</button><br />
+          <input
+            type="text"
+            id="verificationCode"
+            name="verificationCode"
+            placeholder="Código de Verificação"
+          /><br />
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="cordova.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

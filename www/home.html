@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela Inicial Responsiva</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="profile-section">
+        <img src="img/lucas.png" alt="Foto de Perfil" class="profile-photo" />
+        <div class="user-info">
+          <h1>Lucas Carneiro</h1>
+          <p>CNPJ: 097387909-98/0001-08</p>
+        </div>
+        <div>
+          <img
+            src="img/nova logo tempos registrado - Vazado.png"
+            id="img1"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="header-content">
+        <div class="achievements">
+          <i class="fas fa-gem"></i>
+
+          <span>Cliente Diamante</span>
+        </div>
+        <button class="toggle-button" onclick="togglePurchases()"></button>
+        <div class="recent-purchases">
+          <div class="purchase" id="purchase-1">
+            <div class="purchase-date">12/06/2024</div>
+            <i class="fas fa-circle"></i>
+            <p>R$54.973,99</p>
+          </div>
+          <div class="purchase" id="purchase-2">
+            <div class="purchase-date">10/06/2024</div>
+            <i class="fas fa-circle"></i>
+            <p>R$32.987,00</p>
+          </div>
+          <div class="purchase" id="purchase-3">
+            <div class="purchase-date">05/06/2024</div>
+            <i class="fas fa-circle"></i>
+            <p>R$25.899,90</p>
+          </div>
+          <div class="more">
+            <h4>Ver Mais</h4>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="alert-tit">
+        <h2>Parabéns!</h2>
+        <p>Voce foi selecionado para a rodada de negocios 2024!</p>
+      </div>
+      <div class="alert">
+        <img src="img/Fundo.png" id="imgFundo" alt="" />
+        <div class="alert-msg">
+          <h4>Rodada De Negocios 2024</h4>
+          <p>Feira de Santana - BA</p>
+          <p>Arena Cajueiro</p>
+          <button onclick="openMap()">
+            <i class="fas fa-location-arrow" id="marcador"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="alert-tit2">
+        <h2>Confira seu historico de Rodadas:</h2>
+        <p>Rodada de Negocios FSA 2024</p>
+        <p>Rodada de Negocios FSA 2022</p>
+      </div>
+      <div class="verMais">
+        <button id="maisHist">Ver Mais</button>
+      </div>
+    </section>
+    <script src="js/home.js"></script>
+  </body>
+</html>

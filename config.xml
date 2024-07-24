@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.mercanteanywhere" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Mercante Any Where</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="login.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="com.google.firebase.FirebaseMessagingDefaultSenderId" value="YOUR_SENDER_ID" />
+    <preference name="com.google.firebase.project_id" value="21205636201" />
+    <preference name="com.google.firebase.storage_bucket" value="YOUR_STORAGE_BUCKET" />
+</widget>
